@@ -4,16 +4,14 @@ The project aims to develop a system for identifying the region of living of an 
 By developing a robust system for identifying regions of living based on spoken language, this project aims to contribute to various domains, including sociolinguistics, law enforcement, national security, and cross-cultural communication. Ethical considerations such as privacy, surveillance, and potential biases in language profiling are addressed to ensure responsible and transparent deployment of the technology.
 
 # SYSTEM REQUIREMENT SPECIFICATION
-<ul>
+<ol>
   <li>
     <h3>Install Libraries</h3>
     <p>pip install speech_recognition</p>
+    <p>pip install langdetect</p>
+    <p>pip install pyaudio</p>
   </li>
-</ul>
-1.
-  1.
-  2.pip install langdetect
-  3.pip install pyaudio
+</ol>
 2.Importing Necessary Libraries
   1.import speech_recognition as sr
   2.from langdetect import detect
